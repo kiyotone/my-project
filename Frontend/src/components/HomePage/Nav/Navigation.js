@@ -4,7 +4,7 @@ const Navigation = () => {
       <div className="w-full flex">
         <div>AgriLink</div>
         <div>
-          <ul>
+          <ul className="list-none">
             <li>How AgriLInk Works</li>
             <li>Agrilink Features</li>
             <li>About Us</li>
@@ -19,4 +19,4 @@ const Navigation = () => {
   );
 };
 
-export default hero;
+export default Navigation;
